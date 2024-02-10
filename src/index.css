@@ -1,3 +1,11 @@
+:root {
+	/* COLORS */
+	--clr-primary: #3cb4ac;
+	--clr-primary-dark: #147b74;
+	--clr-black: #000000;
+	--clr-gray: #7a7a7a;
+}
+
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -12,5 +20,6 @@ body *::before {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Commissioner', sans-serif;
+	font-size: 1.4rem;
 }
