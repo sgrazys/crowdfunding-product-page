@@ -1,0 +1,11 @@
+.nav_links_container {
+	display: flex;
+	list-style: none;
+	width: 100%;
+}
+
+.nav_links_container.dsktp {
+	max-width: 27.5rem;
+	justify-content: space-between;
+	gap: 2em;
+}

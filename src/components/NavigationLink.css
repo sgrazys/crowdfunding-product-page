@@ -1,0 +1,19 @@
+.nav_link {
+	font-family: inherit;
+	color: inherit;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+@media (min-width: 48em) {
+	.nav_link {
+		font-size: 1.6rem;
+		border-bottom: none;
+	}
+
+	.nav_link:hover {
+		font-size: 1.6rem;
+		border-bottom: 1px solid #fff;
+	}
+}

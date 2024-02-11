@@ -1,0 +1,17 @@
+.nav {
+	color: #fff;
+	width: 100%;
+}
+
+.nav.dsktp {
+	display: none;
+	max-width: 144rem;
+	padding: 3.125em 10.3125rem 0;
+}
+
+@media (min-width: 48em) {
+	.nav.dsktp {
+		display: flex;
+		justify-content: space-between;
+	}
+}
